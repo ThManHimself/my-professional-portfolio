@@ -3,7 +3,7 @@ DESCRIPTION:
 
 My Portfolio:
 
-This website lays out my <web and other application development(?)> Portfolio in an easy to navigate and digestable way. 
+This website lays out my (web and other application development(?)) Portfolio in an easy to navigate and digestable way. 
 
 
 
@@ -30,10 +30,11 @@ Sections: (Actual Body of of the page)
 		2. TITLED Images of main section of each Apps/Project
 		3. Resize Images on HOVER
 		4. Images link to refered project
-'Footer'/'Contact Me':
-	1. Name
-	2. Email
+'Footer'/'Contact Me':<br/>
+	1. Name 
+	2. Email 
 	3. Phone Number
+
 
 
 
