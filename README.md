@@ -6,7 +6,7 @@ This website lays out my web and other application development portfolio in an e
 
 ## MAIN TEXT MOCK-UP:
 
-1. 'root' development:
+1. CORE components:
     1. Color Scheme:(Black,Red,White)? 
     1. MOBILE FRIENDLY: Dynamicly changes the page layout (with @media queries) when the side is viewed on different screen sizes 
 
