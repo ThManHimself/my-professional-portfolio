@@ -11,30 +11,31 @@ This website lays out my web and other application development portfolio in an e
     1. MOBILE FRIENDLY: Dynamicly changes the page layout (with @media queries) when the side is viewed on different screen sizes 
 
 ### Header: 
-1. NAME
-1. (Links to):
-    1. About Me(Links to 'Image of Me'/'About Me' section)
-    1. My Work(Projects)
-    1. Contact Info('Footer'/'Contact Me')
+1. NAME: Links to 'home'/'top of screen' when CLICKED
+1. Links to:
+    1. About Me (Directs to 'Image of Me'/'About Me' section)
+    1. My Work (Directs to Projects section)
+    1. Contact Info (Directs to 'Footer'/'Contact Me' section)
 ### Hero:
-1. Image of Me,
- 	1. Hiking in Colorado
- 	1. Up North w/ Friends
+1. Images of Me
+    1. Hiking in Colorado
+    1. Up North w/ Friends
 1. 	About Me
- 	1. A little about me
+    1. A little about me
 
 ### Sections: 
-1. (main project I want displayed/shown-off to the website viewer or the First project I even made?)'Main' Project displayed larger
+1. 'Main'("Best") Project displayed larger than the rest
 1. Porjects((Flex)Boxes displaying an image of each project)
-    1. (2 rows(?, Maybe dynamic so it adds more when more projects are added), 3 boxes wide on desktop, First project displayed fullsize of screen)
+    1. (2 rows(to start, dynamic so it adds more when more projects are added, capped at 4(?)), 3 boxes wide on desktop, First project displayed fullsize of screen)
     1. TITLED Images of main section of each Apps/Project
     1. Resize Images on HOVER
-    1. Images link to refered project
+    1. Images link to CLICKED project
 
 ### 'Footer'/'Contact Me':
-1. Name 
+1. Name: Links to 'home'/'top of screen' when CLICKED
 1. Email 
-1. Phone Number
+1. Phone Number(?)
+1. LinkdIn Page
 
 
 
