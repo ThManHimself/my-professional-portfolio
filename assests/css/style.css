@@ -168,3 +168,47 @@ header nav ul li a:hover {
 }
 
 /* My Latest Work styles END */
+/* Contact Me styles */
+
+.contact-me { 
+    background-color: var(--secondary-color);
+}
+.contact-me h2 { 
+    color: var(--primary-color);
+}
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+.contact-info { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info iframe { 
+    width: 400px;
+    height: 400px;
+}
+.contact-info div { 
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+.contact-info h3 { 
+    color: var(--primary-color);
+    font-size: 32px;
+}
+.contact-info p, .contact-info address { 
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+.contact-info a {
+    color: var(--primary-color);
+}
+
+/* Contact Me styles END */
