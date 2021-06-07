@@ -25,6 +25,21 @@ body {
 .flex-row { /* ADD THIS WHERE NEEDED IN HTML */
     display: flex;
 }
+.section-title { 
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+.primary-border { 
+    border-color: var(--primary-color);
+}
+.secondary-border { 
+    border-color: var(--tertiary-color);
+}
 
 /* Body/General FULL PAGE styles END */
 /* Header */
@@ -119,3 +134,37 @@ header nav ul li a:hover {
 }
 
 /* What I Do styles END */
+/* My Latest Work styles */
+
+/* .feature-project { 
+    TO BE STYLED LATER
+} */
+.projects { 
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  /*Maybe space-between(?) */
+}
+.project { 
+    margin: 20px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    flex: 1;
+}
+.project img { 
+    max-width: 100%;
+    height: auto;
+}
+.project-bio { 
+    padding: 25px;
+    line-height: 1.3;
+}
+.project-bio h3 { 
+    font-size: 28px;
+}
+.project-bio p { 
+    font-size: 17px;
+}
+
+/* My Latest Work styles END */
