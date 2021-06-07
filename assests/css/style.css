@@ -98,27 +98,40 @@ header nav ul li a:hover {
 /* Hero style */
 
 .hero { 
-    background-image: url(../images/hiking-in-colorado.jpg);
+    background-image: url(../images/hiking-in-colorado-edit3.jpg);
+    background-position: bottom top;
     background-size: cover;
-    background-position: 80%;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%; */
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 .about-me { 
+    background-color: var(--secondary-color);
     width: 35%;
-    text-align: center;
+    text-align: left;
     margin: 3.5%;
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 1.2;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
 }
 .about-me h2 { 
     font-style: italic;
-    font-size: 55px;
+    font-size: 56px;
     color: var(--primary-color);
+    margin: 25px auto;
+}
+.about-me-text { 
+    margin: 7.5% 5%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Hero style END */
@@ -136,9 +149,34 @@ header nav ul li a:hover {
 /* What I Do styles END */
 /* My Latest Work styles */
 
-/* .feature-project { 
-    TO BE STYLED LATER
-} */
+.my-latest-work { 
+    background-color: var(--primary-color);
+}
+.my-latest-work h2 { 
+    margin-top: 35px;
+}
+.feature-project { 
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  /*Maybe space-between(?) */
+}
+.best-project { 
+    margin: 3.5% 10%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    flex: 1;
+    border: 3px solid var(--tertiary-color);
+    border-radius: 15px;
+}
+.best-project img { 
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 .projects { 
     width: 100%;
     margin: 0 auto;
@@ -151,10 +189,15 @@ header nav ul li a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     flex: 1;
+    border: 3px solid var(--tertiary-color);
+    border-radius: 15px;
 }
 .project img { 
     max-width: 100%;
     height: auto;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .project-bio { 
     padding: 25px;
@@ -168,6 +211,11 @@ header nav ul li a:hover {
 }
 
 /* My Latest Work styles END */
+/* My Resume styles */
+
+
+
+/* My Resume styles END */
 /* Contact Me styles */
 
 .contact-me { 
