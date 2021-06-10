@@ -98,14 +98,9 @@ header nav ul li a:hover {
 /* Hero style */
 
 .hero { 
-    background-image: url(../images/hiking-in-colorado-edit3.jpg);
-    background-position: bottom top;
+    background-image: url(../images/atv_in_colorado.jpg);
+    background-position: 50%;
     background-size: cover;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%; */
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
@@ -149,6 +144,7 @@ header nav ul li a:hover {
 /* What I Do styles END */
 /* My Latest Work styles */
 
+/* Feature Project style */
 .my-latest-work { 
     background-color: var(--primary-color);
 }
@@ -177,6 +173,17 @@ header nav ul li a:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.best-project .feature-hidden-text { 
+    font-size: 17px;
+    display: none;
+}
+.best-project:hover .feature-hidden-text { 
+    display: block;
+}
+
+/* Feature Project style END */
+/* REST OF PROJECTS style */
+
 .projects { 
     width: 100%;
     margin: 0 auto;
@@ -206,9 +213,16 @@ header nav ul li a:hover {
 .project-bio h3 { 
     font-size: 28px;
 }
-.project-bio p { 
+.project .hidden-text { 
     font-size: 17px;
+    display: none;
 }
+.project:hover .hidden-text { 
+    display: block;
+}
+
+/* REST OF PROJECTS style END */
+
 
 /* My Latest Work styles END */
 /* My Resume styles */
@@ -305,3 +319,86 @@ footer nav ul li a:hover {
 }
 
 /* Footer styles END */
+
+/* @media styles */
+/* Below is a set of selctors that adjust the page based on screen sizes, i.e. mobile phones, tablets, larger screens than desktop/laptop monitors */
+
+/* media query for SMALLER DESKTOP SCREENS AND SMALLER */
+
+
+
+@media screen and (max-width: 980px) { 
+    header { 
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 { 
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul { 
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a { 
+        font-size: 20px;
+    }
+    footer nav ul li a { 
+        font-size: 13px;
+    }
+    .section-title { 
+        width: 80%;
+    }
+    .project { 
+        flex: 0 70%;
+    }
+    .contact-info iframe { 
+        flex: 1 100%;
+    }
+}
+
+
+
+/* media query for SMALLER DESKTOP SCREENS AND SMALLER  *END*  */
+/* media query for TABLETS AND SMALLER */
+
+
+
+@media screen and (max-width: 768px) { 
+    section { 
+        padding: 30px 15px;
+    }
+}
+
+/* media query for TABLETS AND SMALLER  *END*  */
+/* media query for MOBILE PHONES AND SMALLER */
+
+
+
+@media screen and (max-width: 575px) {
+    .section-title { 
+        width: 95%;
+    }
+    .about-me h2 { 
+        font-size: 48px;
+    }
+    .what-i-do p { 
+        width: 100%;
+    }
+    .trainer {
+        flex: 0 100%;
+    }
+    .contact-info { 
+        text-align: center;
+    }
+    .contact-info > * { 
+        flex: 0 100%;
+    }
+}
+
+
+
+/* media query for MOBILE PHONES AND SMALLER  *END*  */
+/* @media styles END */
