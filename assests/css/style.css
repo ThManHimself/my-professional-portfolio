@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* :root { 
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
-} */
 :root { 
     --primary-color: #1d3c45;
     --secondary-color: #d2601a;
@@ -56,10 +51,6 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky; 
-
-    /* **MAYBE ADD BACK IN IF I HAVE A BACKGROUND IMAGE TO THROW UP,
-    OTHERWISE JUST MAKE SOLID COLOR(SECONDARY-COLOR) BAR** */
-
     position: sticky;
     top: 0;
     z-index: 9999;
